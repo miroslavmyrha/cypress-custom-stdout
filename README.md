@@ -1,5 +1,6 @@
 # cypress-custom-stdout
-custom stdout using console log
+Custom stdout using console log using with junit xml reports in the same time.
+I think, that it´s easyest way to do that without outdated third party packages.
 
 to run use: npx cypress run -q
 
