@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.226" tests="5" failures="2">
+  <testsuite name="Root Suite" timestamp="2024-04-13T09:57:57" tests="0" file="cypress/e2e/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="template spec" timestamp="2024-04-13T09:57:57" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="trerereer" timestamp="2024-04-13T09:57:57" tests="5" time="11.219" failures="2">
+    <testcase name="template spec trerereer Test label for passes" time="0.408" classname="Test label for passes">
+    </testcase>
+    <testcase name="template spec trerereer Test label for passes2" time="0.141" classname="Test label for passes2">
+    </testcase>
+    <testcase name="template spec trerereer Test label for fail" time="0.000" classname="Test label for fail">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `nonExistingElement`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `nonExistingElement`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:16:35)]]></failure>
+    </testcase>
+    <testcase name="template spec trerereer Test label for fail2" time="0.000" classname="Test label for fail2">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `nonExistingElement`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `nonExistingElement`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/spec.cy.js:20:35)]]></failure>
+    </testcase>
+    <testcase name="template spec trerereer Test label for passes3" time="0.106" classname="Test label for passes3">
+    </testcase>
+  </testsuite>
+</testsuites>
